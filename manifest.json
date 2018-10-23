@@ -1,0 +1,24 @@
+{
+  "content_scripts": [
+    {
+      "matches": [
+        "http://*/album/*",
+        "https://*/album/*"
+      ],
+      "js": [
+        "contentscript.js"
+      ],
+      "run_at": "document_start",
+      "all_frames": true
+    }
+  ],
+  "description": "Bandcamp Space Play/Pause Shortcut",
+  "incognito": "split",
+  "manifest_version": 2,
+  "name": "Bandcamp Key Shortcuts",
+  "permissions": [
+    "activeTab"
+  ],
+  "short_name": "bandcampShortcuts",
+  "version": "0.0"
+}
