@@ -3,7 +3,9 @@
     {
       "matches": [
         "http://*/album/*",
-        "https://*/album/*"
+        "https://*/album/*",
+        "http://*/track/*",
+        "https://*/track/*"
       ],
       "js": [
         "contentscript.js"
